@@ -1,0 +1,106 @@
+.test{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.test h2{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+   
+}
+
+.test .p1{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.test .container1{
+    padding: 50px;
+}
+.test .container1 .text{
+    text-align: justify;
+    padding: 25px 25px 25px 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+.test .container1 .shape1{
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 0 80%);
+    transform: rotate(0deg) scaleY(-1);
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    left: -15%;
+    top: -25%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.test .container1 .shape2{
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background-color: #f1f1f1;
+    position: relative;
+    top: -5%;
+    left: 50%;
+
+}
+.test .container1 .name{
+    position: relative;
+    left: 15%;
+    top: 0%;
+}
+.test .container1 .name h2{
+    font-size: large;
+}
+
+.test .container1 .name p{
+    font-size: 14px;
+}
+
+.test .container2{
+    padding: 20px 100px 20px 20px;
+}
+
+.test .container2 .para{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.test .container2 hr{
+    border: 1px solid #f1f1f1;
+    margin: 10px 0;
+}
+
+.test .container2 p button{
+    width:30px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30%;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.test .container2 p button:hover{
+    background-color: white;
+    color: black;
+
+}

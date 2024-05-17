@@ -1,0 +1,109 @@
+.hero {
+    min-height: 10vh; 
+    display: flex; 
+    color: black; 
+  }
+
+  .hero-content {
+    text-align: center; 
+    padding: 5px; 
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hero-logo {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: '30vw'; 
+    height: '8vh'; 
+    margin-left: 7%;
+}
+
+  .hero-title {
+    font-size: 3em; 
+    margin-bottom: 10px; 
+  }
+
+  .hero-subtitle {
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
+    color: orange;
+  }
+
+  .hero-text {
+    font-size: 1em; 
+    line-height: 1.5; 
+    margin-bottom: 30px; 
+    color: black;
+  }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    height: 20vh;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+  .hero-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+    float: right;
+  }
+
+  .hero-nav-list {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  .hero-nav-item {
+    display: inline-block; 
+    margin: 0 20px; 
+  }
+
+  .hero-nav-link {
+    text-decoration: none;
+    color: inherit; 
+    font-weight: bold;
+    font-size: 30px; 
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .hero-nav-link:hover {
+    color: #ccc; 
+  }
+  
+  .hero-button {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+
+  .hero-button1 {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .hero-button:hover {
+    background-color: lightsalmon; 
+  }
+  
+  .hero-button1:hover {
+    background-color: gray;
+  }

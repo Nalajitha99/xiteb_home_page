@@ -1,0 +1,32 @@
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5c1c1;
+    padding: 30px 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    padding: 0 15px;
+  }
+  
+  .stat h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+    margin-right: 10px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 40);
+  }
+  
+  .stat p {
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+  }

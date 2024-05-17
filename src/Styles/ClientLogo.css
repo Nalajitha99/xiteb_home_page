@@ -1,0 +1,19 @@
+.card1 {
+    width : 100%;
+    height : 50vh;
+}
+
+.card-content1 {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    justify-content: center;
+    margin-left: 5%;
+}
+
+a:hover {
+    zoom: 110%;
+}
