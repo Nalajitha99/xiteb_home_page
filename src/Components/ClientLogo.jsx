@@ -39,6 +39,7 @@ const ClientLogo = () => {
 
   return (
     <div className="card1">
+        <h1 style={{textAlign:"center", color:"darkblue",textShadow:"inherit"}}>Our Clients</h1>
         <div className="mt-10">
             <Slider {...settings}> 
             {data.map((d) => (
